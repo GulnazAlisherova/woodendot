@@ -48,10 +48,14 @@ footer {
   padding: 1rem;
   background-color: #e9e9e9;
 }
+footer h2 {
+  font-weight: 400;
+  font-size: 20px; 
+  text-transform: uppercase;
+}
 .footer-nav {
   text-align: center;
 }
-
 .footer-nav ul {
   list-style-type: none;
   margin: 19px;
@@ -60,8 +64,11 @@ footer {
   margin: 12px;
 }
 .footer-nav li a {
-  color: black;0
+  color: black;
   line-height: 20px;
   text-decoration: none;
   font-size: 14px;
+}
+.footer-content{
+  text-align: center; 
 }
